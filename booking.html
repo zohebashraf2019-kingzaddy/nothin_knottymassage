@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book a Massage | Nothin' Knotty Massage LLC — Reno, NV</title>
+  <meta name="description" content="Book Swedish, aromatherapy, hot stone, deep tissue or prenatal massage in Reno, NV. Choose your service, add-ons, date and time.">
+  <meta property="og:title" content="Nothin' Knotty Massage LLC | Reno, NV">
+  <meta property="og:description" content="Relax · Rebalance · Feel your best. Massage therapy in Reno — in studio or at home.">
+  <meta property="og:image" content="images/logo.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#3f4b34">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Jost:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body data-page="book">
+  <header id="site-header"></header>
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="eyebrow">Book Online</div>
+        <h1>Plan your <span class="script">cozy escape</span></h1>
+        <p>Pick your massage, length, add-ons and a time that fits — then confirm on my secure booking page. Prefer to text? You can send your request in one tap.</p>
+        <div class="crumbs"><a href="index.html">Home</a> / Book</div>
+      </div>
+    </section>
+    <section class="section" style="padding-top:30px">
+      <div class="container book-wrap">
+        <div>
+          <div class="step"><h3><span class="n">1</span>Choose your massage</h3><div class="opt-grid" id="opt-services"></div></div>
+          <div class="step"><h3><span class="n">2</span>Length &amp; location</h3>
+            <div class="opt-grid" id="opt-length"></div>
+            <div class="opt-grid" id="opt-location" style="margin-top:.9rem"></div>
+          </div>
+          <div class="step"><h3><span class="n">3</span>Add-ons <small style="font-family:var(--sans);font-size:.85rem;color:var(--muted);font-weight:400">(optional)</small></h3><div class="opt-grid" id="opt-addons"></div></div>
+          <div class="step"><h3><span class="n">4</span>Pick a date &amp; time</h3>
+            <div class="cal">
+              <div class="cal-head"><button id="cal-prev" aria-label="Previous month">‹</button><b id="cal-title"></b><button id="cal-next" aria-label="Next month">›</button></div>
+              <div class="cal-grid" id="cal-grid"></div>
+              <div id="slots"></div>
+            </div>
+          </div>
+        </div>
+        <aside class="summary">
+          <div class="eyebrow left" style="color:#cdbb9f">Your appointment</div>
+          <h3>Booking summary</h3>
+          <dl id="summary-list"></dl>
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="color:#cdbb9f">Estimated total</span><span class="total" id="summary-total">$0</span></div>
+          <a id="go-book" class="btn btn-light" href="#" target="_blank" rel="noopener">Confirm on secure booking page</a>
+          <a id="text-book" class="btn" style="border-color:#fbf5ea;color:#fbf5ea" href="#">Text this request to Juliet</a>
+          <small id="summary-hint"></small>
+          <small>Final availability, deposits and payment (incl. Affirm, Klarna &amp; Afterpay) are handled on the secure GlossGenius booking page. Please arrive 10 minutes early. Cancel 4+ hours ahead to avoid a 40% fee; no-shows are charged in full.</small>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/main.js"></script>
+  <script src="js/booking.js"></script>
+</body>
+</html>

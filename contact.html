@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Nothin' Knotty Massage LLC — Reno, NV</title>
+  <meta name="description" content="Contact Nothin' Knotty Massage in Reno, NV. Call or text (775) 433-8937 or DM @nothin_knottymassage.">
+  <meta property="og:title" content="Nothin' Knotty Massage LLC | Reno, NV">
+  <meta property="og:description" content="Relax · Rebalance · Feel your best. Massage therapy in Reno — in studio or at home.">
+  <meta property="og:image" content="images/logo.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#3f4b34">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Jost:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body data-page="contact">
+  <header id="site-header"></header>
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="eyebrow">Contact</div>
+        <h1>Let's <span class="script">connect</span></h1>
+        <p>Questions about a service, a house call, prenatal massage or the giveaway? Send a message — English or Spanish. 🤎</p>
+        <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+      </div>
+    </section>
+    <section class="section" style="padding-top:30px">
+      <div class="container split" style="align-items:start">
+        <form class="form reveal" id="contact-form" novalidate>
+          <h2 style="font-size:1.9rem">Send a message</h2>
+          <div class="row">
+            <div class="field"><label for="name">Name</label><input id="name" name="name" required autocomplete="name"></div>
+            <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+          </div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"></div>
+          <div class="field"><label>I'm interested in</label>
+            <div class="chips">
+              <button type="button" class="chip">Swedish</button><button type="button" class="chip">Aromatherapy</button><button type="button" class="chip">Hot Stone</button><button type="button" class="chip">Deep Tissue</button><button type="button" class="chip">Prenatal</button><button type="button" class="chip">Pumpkin Spice</button><button type="button" class="chip">House Call</button><button type="button" class="chip">Gift / Giveaway</button>
+            </div>
+            <input type="hidden" id="interest" name="interest">
+          </div>
+          <div class="field"><label for="preferred">Preferred day / time</label><input id="preferred" name="preferred" placeholder="e.g. Tuesday evening"></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message" required placeholder="How can I help?"></textarea></div>
+          <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <div class="form-msg" role="status"></div>
+        </form>
+        <div class="reveal">
+          <div class="hours-card" style="margin-bottom:1.5rem">
+            <div class="eyebrow left">Reach me directly</div>
+            <ul class="info-list">
+              <li><span class="i">📞</span><span><a href="tel:+17754338937">(775) 433-8937</a><br><small style="color:var(--muted)">Call or text</small></span></li>
+              <li><span class="i">📸</span><span><a href="https://www.instagram.com/nothin_knottymassage/" target="_blank" rel="noopener">@nothin_knottymassage</a><br><small style="color:var(--muted)">DM to book</small></span></li>
+              <li><span class="i">📅</span><a href="https://nothinknottymassage.glossgenius.com/services" target="_blank" rel="noopener">Book online (GlossGenius)</a></li>
+              <li><span class="i">📍</span><a href="https://www.google.com/maps/search/?api=1&query=3400+Kauai+Court+201+Reno+NV+89509" target="_blank" rel="noopener">3400 Kauai Court, Suite 201, Reno, NV 89509</a></li>
+            </ul>
+          </div>
+          <div class="hours-card">
+            <div class="eyebrow left">Hours</div>
+            <div class="status-pill"><i></i>…</div>
+            <table class="hours-table"><tbody data-hours-table></tbody></table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section bg-paper" style="padding-top:0;background:transparent">
+      <div class="container"><iframe class="map" style="min-height:360px" title="Map to Nothin' Knotty Massage" loading="lazy" src="https://www.google.com/maps?q=3400+Kauai+Court+201+Reno+NV+89509&output=embed"></iframe></div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
